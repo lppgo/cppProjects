@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/e/cppProjects001/test-1/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/mnt/e/cppProjects001/test-1/./include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/custoMatch.cpp.o -c /mnt/e/cppProjects001/test-1/src/custoMatch.cpp",
+  "file": "/mnt/e/cppProjects001/test-1/src/custoMatch.cpp"
+},
+{
+  "directory": "/mnt/e/cppProjects001/test-1/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/mnt/e/cppProjects001/test-1/./include  -g   -std=gnu++11 -o CMakeFiles/main.dir/src/main.cpp.o -c /mnt/e/cppProjects001/test-1/src/main.cpp",
+  "file": "/mnt/e/cppProjects001/test-1/src/main.cpp"
+}
+]
