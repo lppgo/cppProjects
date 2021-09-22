@@ -1,17 +1,17 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-05-10 10:50:43
- * @LastEditTime: 2021-09-22 14:34:26
+ * @LastEditTime: 2021-09-22 14:42:14
  * @LastEditors: Please set LastEditors
  * @Description: desc
- * @FilePath: \test-baseCase\main.go
+ * @FilePath: \005_swig_go_all\baseCase\main.go
  */
 
 package main
 
 import (
 	"fmt"
-	swig "test/src"
+	swig "swig_go/baseCase/src"
 )
 
 type TestCase1Class interface {
