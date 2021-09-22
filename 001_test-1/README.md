@@ -47,7 +47,32 @@
 
 ## 5.3 使用静态库
 
-# 6：CMake 预定义变量
+# 6: CMakeLists.txt
+
+```cmake
+#project name
+PROJECT(test_math)
+#head file path
+INCLUDE_DIRECTORIES(
+include
+)
+#source directory
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+#set environment variable
+SET(TEST_MATH
+${DIR_SRCS}
+)
+#set extern libraries
+SET(LIBRARIES
+libm.so
+)
+#add executable file
+ADD_EXECUTABLE(../bin/bin ${TEST_MATH})
+#add link library
+TARGET_LINK_LIBRARIES(../bin/bin ${LIBRARIES})
+ 
+```
+## 6.1 make 预定义变量
 
 - EXECUTABLE_OUTPUT_PATH：标二进制可执行文件的存放位置
 - PROJECT_SOURCE_DIR：工程的根目录
