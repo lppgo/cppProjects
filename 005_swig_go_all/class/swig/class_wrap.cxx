@@ -246,7 +246,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_swig_d19634856f875345(void *_swig_go_0) {
+void _wrap_Swig_free_swig_e8af06f0d34f86b0(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -256,7 +256,7 @@ void _wrap_Swig_free_swig_d19634856f875345(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_swig_d19634856f875345(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_swig_e8af06f0d34f86b0(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -269,7 +269,7 @@ void *_wrap_Swig_malloc_swig_d19634856f875345(intgo _swig_go_0) {
 }
 
 
-void _wrap_delete_Shape_swig_d19634856f875345(Shape *_swig_go_0) {
+void _wrap_delete_Shape_swig_e8af06f0d34f86b0(Shape *_swig_go_0) {
   Shape *arg1 = (Shape *) 0 ;
   
   arg1 = *(Shape **)&_swig_go_0; 
@@ -279,7 +279,7 @@ void _wrap_delete_Shape_swig_d19634856f875345(Shape *_swig_go_0) {
 }
 
 
-void _wrap_Shape_x_set_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_1) {
+void _wrap_Shape_x_set_swig_e8af06f0d34f86b0(Shape *_swig_go_0, double _swig_go_1) {
   Shape *arg1 = (Shape *) 0 ;
   double arg2 ;
   
@@ -291,7 +291,7 @@ void _wrap_Shape_x_set_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_
 }
 
 
-double _wrap_Shape_x_get_swig_d19634856f875345(Shape *_swig_go_0) {
+double _wrap_Shape_x_get_swig_e8af06f0d34f86b0(Shape *_swig_go_0) {
   Shape *arg1 = (Shape *) 0 ;
   double result;
   double _swig_go_result;
@@ -304,7 +304,7 @@ double _wrap_Shape_x_get_swig_d19634856f875345(Shape *_swig_go_0) {
 }
 
 
-void _wrap_Shape_y_set_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_1) {
+void _wrap_Shape_y_set_swig_e8af06f0d34f86b0(Shape *_swig_go_0, double _swig_go_1) {
   Shape *arg1 = (Shape *) 0 ;
   double arg2 ;
   
@@ -316,7 +316,7 @@ void _wrap_Shape_y_set_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_
 }
 
 
-double _wrap_Shape_y_get_swig_d19634856f875345(Shape *_swig_go_0) {
+double _wrap_Shape_y_get_swig_e8af06f0d34f86b0(Shape *_swig_go_0) {
   Shape *arg1 = (Shape *) 0 ;
   double result;
   double _swig_go_result;
@@ -329,7 +329,7 @@ double _wrap_Shape_y_get_swig_d19634856f875345(Shape *_swig_go_0) {
 }
 
 
-void _wrap_Shape_move_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+void _wrap_Shape_move_swig_e8af06f0d34f86b0(Shape *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   Shape *arg1 = (Shape *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -343,7 +343,7 @@ void _wrap_Shape_move_swig_d19634856f875345(Shape *_swig_go_0, double _swig_go_1
 }
 
 
-double _wrap_Shape_area_swig_d19634856f875345(Shape *_swig_go_0) {
+double _wrap_Shape_area_swig_e8af06f0d34f86b0(Shape *_swig_go_0) {
   Shape *arg1 = (Shape *) 0 ;
   double result;
   double _swig_go_result;
@@ -356,7 +356,7 @@ double _wrap_Shape_area_swig_d19634856f875345(Shape *_swig_go_0) {
 }
 
 
-double _wrap_Shape_perimeter_swig_d19634856f875345(Shape *_swig_go_0) {
+double _wrap_Shape_perimeter_swig_e8af06f0d34f86b0(Shape *_swig_go_0) {
   Shape *arg1 = (Shape *) 0 ;
   double result;
   double _swig_go_result;
@@ -369,7 +369,7 @@ double _wrap_Shape_perimeter_swig_d19634856f875345(Shape *_swig_go_0) {
 }
 
 
-void _wrap_Shape_nshapes_set_swig_d19634856f875345(intgo _swig_go_0) {
+void _wrap_Shape_nshapes_set_swig_e8af06f0d34f86b0(intgo _swig_go_0) {
   int arg1 ;
   
   arg1 = (int)_swig_go_0; 
@@ -379,7 +379,7 @@ void _wrap_Shape_nshapes_set_swig_d19634856f875345(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_Shape_nshapes_get_swig_d19634856f875345() {
+intgo _wrap_Shape_nshapes_get_swig_e8af06f0d34f86b0() {
   int result;
   intgo _swig_go_result;
   
@@ -390,7 +390,7 @@ intgo _wrap_Shape_nshapes_get_swig_d19634856f875345() {
 }
 
 
-Circle *_wrap_new_Circle_swig_d19634856f875345(double _swig_go_0) {
+Circle *_wrap_new_Circle_swig_e8af06f0d34f86b0(double _swig_go_0) {
   double arg1 ;
   Circle *result = 0 ;
   Circle *_swig_go_result;
@@ -403,7 +403,7 @@ Circle *_wrap_new_Circle_swig_d19634856f875345(double _swig_go_0) {
 }
 
 
-double _wrap_Circle_area_swig_d19634856f875345(Circle *_swig_go_0) {
+double _wrap_Circle_area_swig_e8af06f0d34f86b0(Circle *_swig_go_0) {
   Circle *arg1 = (Circle *) 0 ;
   double result;
   double _swig_go_result;
@@ -416,7 +416,7 @@ double _wrap_Circle_area_swig_d19634856f875345(Circle *_swig_go_0) {
 }
 
 
-double _wrap_Circle_perimeter_swig_d19634856f875345(Circle *_swig_go_0) {
+double _wrap_Circle_perimeter_swig_e8af06f0d34f86b0(Circle *_swig_go_0) {
   Circle *arg1 = (Circle *) 0 ;
   double result;
   double _swig_go_result;
@@ -429,7 +429,7 @@ double _wrap_Circle_perimeter_swig_d19634856f875345(Circle *_swig_go_0) {
 }
 
 
-void _wrap_delete_Circle_swig_d19634856f875345(Circle *_swig_go_0) {
+void _wrap_delete_Circle_swig_e8af06f0d34f86b0(Circle *_swig_go_0) {
   Circle *arg1 = (Circle *) 0 ;
   
   arg1 = *(Circle **)&_swig_go_0; 
@@ -439,7 +439,7 @@ void _wrap_delete_Circle_swig_d19634856f875345(Circle *_swig_go_0) {
 }
 
 
-void _wrap_SetCircle_X_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go_1) {
+void _wrap_SetCircle_X_swig_e8af06f0d34f86b0(Circle *_swig_go_0, double _swig_go_1) {
   Circle *arg1 = (Circle *) 0 ;
   double arg2 ;
   
@@ -452,7 +452,7 @@ void _wrap_SetCircle_X_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go
 }
 
 
-double _wrap_GetCircle_X_swig_d19634856f875345(Circle *_swig_go_0) {
+double _wrap_GetCircle_X_swig_e8af06f0d34f86b0(Circle *_swig_go_0) {
   Circle *arg1 = (Circle *) 0 ;
   double result;
   double _swig_go_result;
@@ -466,7 +466,7 @@ double _wrap_GetCircle_X_swig_d19634856f875345(Circle *_swig_go_0) {
 }
 
 
-void _wrap_SetCircle_Y_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go_1) {
+void _wrap_SetCircle_Y_swig_e8af06f0d34f86b0(Circle *_swig_go_0, double _swig_go_1) {
   Circle *arg1 = (Circle *) 0 ;
   double arg2 ;
   
@@ -479,7 +479,7 @@ void _wrap_SetCircle_Y_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go
 }
 
 
-double _wrap_GetCircle_Y_swig_d19634856f875345(Circle *_swig_go_0) {
+double _wrap_GetCircle_Y_swig_e8af06f0d34f86b0(Circle *_swig_go_0) {
   Circle *arg1 = (Circle *) 0 ;
   double result;
   double _swig_go_result;
@@ -493,7 +493,7 @@ double _wrap_GetCircle_Y_swig_d19634856f875345(Circle *_swig_go_0) {
 }
 
 
-void _wrap_Circle_move_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+void _wrap_Circle_move_swig_e8af06f0d34f86b0(Circle *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   Circle *arg1 = (Circle *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -508,7 +508,7 @@ void _wrap_Circle_move_swig_d19634856f875345(Circle *_swig_go_0, double _swig_go
 }
 
 
-Square *_wrap_new_Square_swig_d19634856f875345(double _swig_go_0) {
+Square *_wrap_new_Square_swig_e8af06f0d34f86b0(double _swig_go_0) {
   double arg1 ;
   Square *result = 0 ;
   Square *_swig_go_result;
@@ -521,7 +521,7 @@ Square *_wrap_new_Square_swig_d19634856f875345(double _swig_go_0) {
 }
 
 
-double _wrap_Square_area_swig_d19634856f875345(Square *_swig_go_0) {
+double _wrap_Square_area_swig_e8af06f0d34f86b0(Square *_swig_go_0) {
   Square *arg1 = (Square *) 0 ;
   double result;
   double _swig_go_result;
@@ -534,7 +534,7 @@ double _wrap_Square_area_swig_d19634856f875345(Square *_swig_go_0) {
 }
 
 
-double _wrap_Square_perimeter_swig_d19634856f875345(Square *_swig_go_0) {
+double _wrap_Square_perimeter_swig_e8af06f0d34f86b0(Square *_swig_go_0) {
   Square *arg1 = (Square *) 0 ;
   double result;
   double _swig_go_result;
@@ -547,7 +547,7 @@ double _wrap_Square_perimeter_swig_d19634856f875345(Square *_swig_go_0) {
 }
 
 
-void _wrap_delete_Square_swig_d19634856f875345(Square *_swig_go_0) {
+void _wrap_delete_Square_swig_e8af06f0d34f86b0(Square *_swig_go_0) {
   Square *arg1 = (Square *) 0 ;
   
   arg1 = *(Square **)&_swig_go_0; 
@@ -557,7 +557,7 @@ void _wrap_delete_Square_swig_d19634856f875345(Square *_swig_go_0) {
 }
 
 
-void _wrap_SetSquare_X_swig_d19634856f875345(Square *_swig_go_0, double _swig_go_1) {
+void _wrap_SetSquare_X_swig_e8af06f0d34f86b0(Square *_swig_go_0, double _swig_go_1) {
   Square *arg1 = (Square *) 0 ;
   double arg2 ;
   
@@ -570,7 +570,7 @@ void _wrap_SetSquare_X_swig_d19634856f875345(Square *_swig_go_0, double _swig_go
 }
 
 
-double _wrap_GetSquare_X_swig_d19634856f875345(Square *_swig_go_0) {
+double _wrap_GetSquare_X_swig_e8af06f0d34f86b0(Square *_swig_go_0) {
   Square *arg1 = (Square *) 0 ;
   double result;
   double _swig_go_result;
@@ -584,7 +584,7 @@ double _wrap_GetSquare_X_swig_d19634856f875345(Square *_swig_go_0) {
 }
 
 
-void _wrap_SetSquare_Y_swig_d19634856f875345(Square *_swig_go_0, double _swig_go_1) {
+void _wrap_SetSquare_Y_swig_e8af06f0d34f86b0(Square *_swig_go_0, double _swig_go_1) {
   Square *arg1 = (Square *) 0 ;
   double arg2 ;
   
@@ -597,7 +597,7 @@ void _wrap_SetSquare_Y_swig_d19634856f875345(Square *_swig_go_0, double _swig_go
 }
 
 
-double _wrap_GetSquare_Y_swig_d19634856f875345(Square *_swig_go_0) {
+double _wrap_GetSquare_Y_swig_e8af06f0d34f86b0(Square *_swig_go_0) {
   Square *arg1 = (Square *) 0 ;
   double result;
   double _swig_go_result;
@@ -611,7 +611,7 @@ double _wrap_GetSquare_Y_swig_d19634856f875345(Square *_swig_go_0) {
 }
 
 
-void _wrap_Square_move_swig_d19634856f875345(Square *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+void _wrap_Square_move_swig_e8af06f0d34f86b0(Square *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   Square *arg1 = (Square *) 0 ;
   double arg2 ;
   double arg3 ;

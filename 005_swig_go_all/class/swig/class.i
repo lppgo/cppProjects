@@ -7,3 +7,4 @@
 
 /* Let's just grab the original header file here */
 %include "class.h"
+// %nspace ama::Shape;

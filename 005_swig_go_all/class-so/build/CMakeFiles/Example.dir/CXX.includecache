@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.cpp
+simpleClass.h
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.h
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.h
+iostream
+-
+vector
+-
+

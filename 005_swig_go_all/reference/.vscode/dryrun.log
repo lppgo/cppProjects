@@ -1,0 +1,15 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/e/cppProjects001/005_swig_go_all/reference'
+make -f ../../Makefile SRCDIR='' CXXSRCS='reference.cxx' \
+SWIG_LIB_DIR='../../../Lib' SWIGEXE='../../../swig' \
+SWIGOPT='' TARGET='example' INTERFACE='example.i' go_cpp
+make[1]: Entering directory '/mnt/e/cppProjects001/005_swig_go_all/reference'
+make[1]: Leaving directory '/mnt/e/cppProjects001/005_swig_go_all/reference'
+make: Leaving directory '/mnt/e/cppProjects001/005_swig_go_all/reference'
+ 
+make[1]: ../../Makefile: No such file or directory
+make[1]: *** No rule to make target '../../Makefile'.
+make[1]: Failed to remake makefile '../../Makefile'.
+make[1]: *** No rule to make target 'go_cpp'.
+make: *** [Makefile:13: build] Error 2
+ 

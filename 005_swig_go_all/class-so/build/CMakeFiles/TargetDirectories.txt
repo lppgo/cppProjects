@@ -1,0 +1,9 @@
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/install/strip.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/install/local.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/install.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/list_install_components.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/exampleForGo.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/exampleForGo_swig_compilation.dir
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/CMakeFiles/AMA.dir

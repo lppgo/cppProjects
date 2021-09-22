@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/e/cppProjects001/005_swig_go_all/class-so'
+swig -c++ -go -cgo -intgosize 64 -package ./swig ./swig/class.i
+make: Leaving directory '/mnt/e/cppProjects001/005_swig_go_all/class-so'
+ 

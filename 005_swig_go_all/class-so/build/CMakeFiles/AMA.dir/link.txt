@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libAMA.so -o libAMA.so CMakeFiles/AMA.dir/include/simpleClass.cpp.o 

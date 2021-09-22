@@ -28,36 +28,36 @@ typedef struct { char *p; intgo n; } _gostring_;
 typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
-extern void _wrap_Swig_free_swig_d19634856f875345(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_swig_d19634856f875345(swig_intgo arg1);
-extern void _wrap_delete_Shape_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_Shape_x_set_swig_d19634856f875345(uintptr_t arg1, double arg2);
-extern double _wrap_Shape_x_get_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_Shape_y_set_swig_d19634856f875345(uintptr_t arg1, double arg2);
-extern double _wrap_Shape_y_get_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_Shape_move_swig_d19634856f875345(uintptr_t arg1, double arg2, double arg3);
-extern double _wrap_Shape_area_swig_d19634856f875345(uintptr_t arg1);
-extern double _wrap_Shape_perimeter_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_Shape_nshapes_set_swig_d19634856f875345(swig_intgo arg1);
-extern swig_intgo _wrap_Shape_nshapes_get_swig_d19634856f875345(void);
-extern uintptr_t _wrap_new_Circle_swig_d19634856f875345(double arg1);
-extern double _wrap_Circle_area_swig_d19634856f875345(uintptr_t arg1);
-extern double _wrap_Circle_perimeter_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_delete_Circle_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_SetCircle_X_swig_d19634856f875345(uintptr_t _swig_base, double arg1);
-extern double _wrap_GetCircle_X_swig_d19634856f875345(uintptr_t _swig_base);
-extern void _wrap_SetCircle_Y_swig_d19634856f875345(uintptr_t _swig_base, double arg1);
-extern double _wrap_GetCircle_Y_swig_d19634856f875345(uintptr_t _swig_base);
-extern void _wrap_Circle_move_swig_d19634856f875345(uintptr_t _swig_base, double arg1, double arg2);
-extern uintptr_t _wrap_new_Square_swig_d19634856f875345(double arg1);
-extern double _wrap_Square_area_swig_d19634856f875345(uintptr_t arg1);
-extern double _wrap_Square_perimeter_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_delete_Square_swig_d19634856f875345(uintptr_t arg1);
-extern void _wrap_SetSquare_X_swig_d19634856f875345(uintptr_t _swig_base, double arg1);
-extern double _wrap_GetSquare_X_swig_d19634856f875345(uintptr_t _swig_base);
-extern void _wrap_SetSquare_Y_swig_d19634856f875345(uintptr_t _swig_base, double arg1);
-extern double _wrap_GetSquare_Y_swig_d19634856f875345(uintptr_t _swig_base);
-extern void _wrap_Square_move_swig_d19634856f875345(uintptr_t _swig_base, double arg1, double arg2);
+extern void _wrap_Swig_free_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_swig_e8af06f0d34f86b0(swig_intgo arg1);
+extern void _wrap_delete_Shape_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_Shape_x_set_swig_e8af06f0d34f86b0(uintptr_t arg1, double arg2);
+extern double _wrap_Shape_x_get_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_Shape_y_set_swig_e8af06f0d34f86b0(uintptr_t arg1, double arg2);
+extern double _wrap_Shape_y_get_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_Shape_move_swig_e8af06f0d34f86b0(uintptr_t arg1, double arg2, double arg3);
+extern double _wrap_Shape_area_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern double _wrap_Shape_perimeter_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_Shape_nshapes_set_swig_e8af06f0d34f86b0(swig_intgo arg1);
+extern swig_intgo _wrap_Shape_nshapes_get_swig_e8af06f0d34f86b0(void);
+extern uintptr_t _wrap_new_Circle_swig_e8af06f0d34f86b0(double arg1);
+extern double _wrap_Circle_area_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern double _wrap_Circle_perimeter_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_delete_Circle_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_SetCircle_X_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1);
+extern double _wrap_GetCircle_X_swig_e8af06f0d34f86b0(uintptr_t _swig_base);
+extern void _wrap_SetCircle_Y_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1);
+extern double _wrap_GetCircle_Y_swig_e8af06f0d34f86b0(uintptr_t _swig_base);
+extern void _wrap_Circle_move_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1, double arg2);
+extern uintptr_t _wrap_new_Square_swig_e8af06f0d34f86b0(double arg1);
+extern double _wrap_Square_area_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern double _wrap_Square_perimeter_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_delete_Square_swig_e8af06f0d34f86b0(uintptr_t arg1);
+extern void _wrap_SetSquare_X_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1);
+extern double _wrap_GetSquare_X_swig_e8af06f0d34f86b0(uintptr_t _swig_base);
+extern void _wrap_SetSquare_Y_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1);
+extern double _wrap_GetSquare_Y_swig_e8af06f0d34f86b0(uintptr_t _swig_base);
+extern void _wrap_Square_move_swig_e8af06f0d34f86b0(uintptr_t _swig_base, double arg1, double arg2);
 #undef intgo
 */
 import "C"
@@ -83,13 +83,13 @@ type _ sync.Mutex
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_swig_d19634856f875345(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_swig_d19634856f875345(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_swig_e8af06f0d34f86b0(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -104,32 +104,32 @@ func (p SwigcptrShape) SwigIsShape() {
 
 func DeleteShape(arg1 Shape) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Shape_swig_d19634856f875345(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Shape_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrShape) SetX(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Shape_x_set_swig_d19634856f875345(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Shape_x_set_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrShape) GetX() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Shape_x_get_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Shape_x_get_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrShape) SetY(arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Shape_y_set_swig_d19634856f875345(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Shape_y_set_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (arg1 SwigcptrShape) GetY() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Shape_y_get_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Shape_y_get_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -137,31 +137,31 @@ func (arg1 SwigcptrShape) Move(arg2 float64, arg3 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Shape_move_swig_d19634856f875345(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))
+	C._wrap_Shape_move_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2))
 }
 
 func (arg1 SwigcptrShape) Area() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Shape_area_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Shape_area_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrShape) Perimeter() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Shape_perimeter_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Shape_perimeter_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SetShapeNshapes(arg1 int) {
 	_swig_i_0 := arg1
-	C._wrap_Shape_nshapes_set_swig_d19634856f875345(C.swig_intgo(_swig_i_0))
+	C._wrap_Shape_nshapes_set_swig_e8af06f0d34f86b0(C.swig_intgo(_swig_i_0))
 }
 
 func GetShapeNshapes() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_Shape_nshapes_get_swig_d19634856f875345())
+	swig_r = (int)(C._wrap_Shape_nshapes_get_swig_e8af06f0d34f86b0())
 	return swig_r
 }
 
@@ -189,55 +189,55 @@ func (p SwigcptrCircle) SwigIsCircle() {
 func NewCircle(arg1 float64) (_swig_ret Circle) {
 	var swig_r Circle
 	_swig_i_0 := arg1
-	swig_r = (Circle)(SwigcptrCircle(C._wrap_new_Circle_swig_d19634856f875345(C.double(_swig_i_0))))
+	swig_r = (Circle)(SwigcptrCircle(C._wrap_new_Circle_swig_e8af06f0d34f86b0(C.double(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrCircle) Area() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Circle_area_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Circle_area_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrCircle) Perimeter() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Circle_perimeter_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Circle_perimeter_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteCircle(arg1 Circle) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Circle_swig_d19634856f875345(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Circle_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCircle) SetX(arg1 float64) {
 	_swig_i_0 := arg1
-	C._wrap_SetCircle_X_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0))
+	C._wrap_SetCircle_X_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCircle) GetX() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_GetCircle_X_swig_d19634856f875345(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_GetCircle_X_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCircle) SetY(arg1 float64) {
 	_swig_i_0 := arg1
-	C._wrap_SetCircle_Y_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0))
+	C._wrap_SetCircle_Y_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0))
 }
 
 func (_swig_base SwigcptrCircle) GetY() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_GetCircle_Y_swig_d19634856f875345(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_GetCircle_Y_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrCircle) Move(arg1 float64, arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Circle_move_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Circle_move_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (p SwigcptrCircle) SwigIsShape() {
@@ -273,55 +273,55 @@ func (p SwigcptrSquare) SwigIsSquare() {
 func NewSquare(arg1 float64) (_swig_ret Square) {
 	var swig_r Square
 	_swig_i_0 := arg1
-	swig_r = (Square)(SwigcptrSquare(C._wrap_new_Square_swig_d19634856f875345(C.double(_swig_i_0))))
+	swig_r = (Square)(SwigcptrSquare(C._wrap_new_Square_swig_e8af06f0d34f86b0(C.double(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSquare) Area() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Square_area_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Square_area_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSquare) Perimeter() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_Square_perimeter_swig_d19634856f875345(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_Square_perimeter_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteSquare(arg1 Square) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Square_swig_d19634856f875345(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Square_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSquare) SetX(arg1 float64) {
 	_swig_i_0 := arg1
-	C._wrap_SetSquare_X_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0))
+	C._wrap_SetSquare_X_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSquare) GetX() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_GetSquare_X_swig_d19634856f875345(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_GetSquare_X_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSquare) SetY(arg1 float64) {
 	_swig_i_0 := arg1
-	C._wrap_SetSquare_Y_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0))
+	C._wrap_SetSquare_Y_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSquare) GetY() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_GetSquare_Y_swig_d19634856f875345(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_GetSquare_Y_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSquare) Move(arg1 float64, arg2 float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Square_move_swig_d19634856f875345(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1))
+	C._wrap_Square_move_swig_e8af06f0d34f86b0(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1))
 }
 
 func (p SwigcptrSquare) SwigIsShape() {

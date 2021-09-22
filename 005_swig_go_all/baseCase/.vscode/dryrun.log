@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/e/goProject002/001_test'
+go fmt ./
+go vet ./
+go build -o "hello"
+make: Leaving directory '/mnt/e/goProject002/001_test'
+ 

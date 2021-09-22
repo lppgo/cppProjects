@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/go/AMA/simpleClass.h
+iostream
+-
+vector
+-
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/go/AMA/simpleClassGO_wrap.cxx
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+simpleClass.h
+/mnt/e/cppProjects001/005_swig_go_all/class-so/build/go/AMA/simpleClass.h
+string
+-
+vector
+-
+stdexcept
+-
+stdint.h
+-
+

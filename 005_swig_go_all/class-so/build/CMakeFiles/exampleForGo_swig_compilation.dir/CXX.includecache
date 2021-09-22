@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.h
+iostream
+-
+vector
+-
+
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.i
+simpleClass.h
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.h
+std_string.i
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/std_string.i
+std_vector.i
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/std_vector.i
+stdint.i
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/stdint.i
+typemaps.i
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/typemaps.i
+simpleClass.h
+/mnt/e/cppProjects001/005_swig_go_all/class-so/include/simpleClass.h
+

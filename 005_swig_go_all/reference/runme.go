@@ -1,10 +1,10 @@
 /*
  * @Author: lucas李平平
- * @Date: 2021-09-09 17:21:41
- * @LastEditTime: 2021-09-10 13:08:18
- * @LastEditors:
- * @Description: desc
- * @FilePath: /go/reference/runme.go
+ * @Date: 2021-09-09 13:31:38
+ * @LastEditTime: 2021-09-22 14:21:34
+ * @LastEditors: Please set LastEditors
+ * @Description:
+ * @FilePath: \005_swig_go_all\reference\runme.go
  */
 // This example illustrates the manipulation of C++ references in Java.
 
@@ -12,14 +12,13 @@ package main
 
 import (
 	"fmt"
-
-	. "swig_go/reference/swig"
+	"swig_go/reference/swig"
 )
 
 func main() {
 	fmt.Println("Creating some objects:")
-	a := NewVector(3, 4, 5)
-	b := NewVector(10, 11, 12)
+	a := swig.NewVector(3, 4, 5)
+	b := swig.NewVector(10, 11, 12)
 
 	fmt.Println("    Created ", a.Print())
 	fmt.Println("    Created ", b.Print())
@@ -33,7 +32,7 @@ func main() {
 	// It returns a new allocated object.
 
 	fmt.Println("Adding a+b")
-	c := Addv(a, b)
+	c := swig.Addv(a, b)
 	fmt.Println("    a+b = " + c.Print())
 
 	// Because addv returns a reference, Addv will return a
@@ -46,7 +45,7 @@ func main() {
 	// ----- Create a vector array -----
 
 	fmt.Println("Creating an array of vectors")
-	va := NewVectorArray(10)
+	va := swig.NewVectorArray(10)
 	fmt.Println("    va = ", va)
 
 	// ----- Set some values in the array -----
@@ -56,7 +55,7 @@ func main() {
 	va.Set(0, a)
 	va.Set(1, b)
 
-	va.Set(2, Addv(a, b))
+	va.Set(2, swig.Addv(a, b))
 
 	// Get some values from the array
 
@@ -74,7 +73,7 @@ func main() {
 	// ----- Clean up ----- This could be omitted. The garbage
 	// collector would then clean up for us.
 	fmt.Println("Cleaning up")
-	DeleteVectorArray(va)
-	DeleteVector(a)
-	DeleteVector(b)
+	swig.DeleteVectorArray(va)
+	swig.DeleteVector(a)
+	swig.DeleteVector(b)
 }

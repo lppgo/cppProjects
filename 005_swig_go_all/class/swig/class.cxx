@@ -1,10 +1,10 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-09-09 17:21:40
- * @LastEditTime: 2021-09-10 11:16:31
- * @LastEditors:
+ * @LastEditTime: 2021-09-21 18:37:30
+ * @LastEditors: Please set LastEditors
  * @Description: desc
- * @FilePath: /go/class/swig/class.cxx
+ * @FilePath: \005_swig_go_all\class\swig\class.cxx
  */
 /* File : class.cxx */
 

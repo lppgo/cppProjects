@@ -1,13 +1,13 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-09-09 17:21:40
- * @LastEditTime: 2021-09-10 11:16:43
+ * @LastEditTime: 2021-09-21 12:51:59
  * @LastEditors: Please set LastEditors
  * @Description: class.xxx的cpp头文件
- * @FilePath: /go/class/swig/class.h
+ * @FilePath: \005_swig_go_all\class\swig\class.h
  */
 /* File : class.h */
-
+// namespace ama {
 class Shape {
    public:
     Shape() { nshapes++; }
@@ -24,7 +24,8 @@ class Circle : public Shape {
     double radius;
 
    public:
-    Circle(double r) : radius(r) {}
+    Circle(double r)
+        : radius(r) {}
     virtual double area();
     virtual double perimeter();
 };
@@ -34,7 +35,9 @@ class Square : public Shape {
     double width;
 
    public:
-    Square(double w) : width(w) {}
+    Square(double w)
+        : width(w) {}
     virtual double area();
     virtual double perimeter();
 };
+// }  // namespace ama
