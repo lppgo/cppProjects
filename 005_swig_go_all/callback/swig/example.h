@@ -1,10 +1,10 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-09-09 17:21:39
- * @LastEditTime: 2021-09-10 17:45:08
- * @LastEditors: 
+ * @LastEditTime: 2021-09-29 13:56:35
+ * @LastEditors: Please set LastEditors
  * @Description: desc
- * @FilePath: /go/callback/swig/example.h
+ * @FilePath: \005_swig_go_all\callback\swig\example.h
  */
 /* File : example.h */
 
@@ -39,3 +39,23 @@ class Caller {
             _callback->run();
     }
 };
+
+
+
+// 基本流程:
+// 1: InitCfg  (成功)
+
+// 2: NewIAMDSpi
+//     new MDOrderBookVector
+//     new MDOrderBook
+//     new MDOrderBook --- new bid_order_book
+//     new MDOrderBook --- new offer_order_book
+
+//     备注: tools 里面serialize 注释了
+
+// 3: IAMDApiInit(MDOrderBookVector,cfg) (成功)
+// 4: 初始化subscribeitem
+//     CreateSubscribeItem 数组
+//     item 数组元素
+//     SetSubScribeItem() 给数组赋值
+// 5: 调用subscribedata 方法，进行数据订阅。

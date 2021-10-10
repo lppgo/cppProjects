@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.json": "jsonc",
+    "ostream": "cpp",
+    "iomanip": "cpp",
+    "iostream": "cpp",
+    "xiosbase": "cpp",
+    "istream": "cpp",
+    "iosfwd": "cpp",
+    "vector": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

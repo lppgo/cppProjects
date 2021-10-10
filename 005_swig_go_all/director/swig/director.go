@@ -1,16 +1,26 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-09-09 17:21:40
- * @LastEditTime: 2021-09-10 17:36:36
- * @LastEditors:
+ * @LastEditTime: 2021-09-24 13:34:36
+ * @LastEditors: Please set LastEditors
  * @Description: desc
- * @FilePath: /go/director/swig/director.go
+ * @FilePath: \005_swig_go_all\director\swig\director.go
  */
 package swig
 
 // FooBarGo is a superset of FooBarAbstract and hence FooBarGo can be used as a
 // drop in replacement for FooBarAbstract but the reverse causes a compile time
 // error.
+
+/*
+type FooBarCpp interface {
+	Swigcptr() uintptr
+	SwigIsFooBarCpp()
+	FooBar() (_swig_ret string)
+	SwigIsFooBarAbstract()
+	SwigGetFooBarAbstract() FooBarAbstract
+} */
+
 type FooBarGo interface {
 	FooBarAbstract
 	deleteFooBarAbstract()

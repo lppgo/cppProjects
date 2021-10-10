@@ -60,5 +60,6 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace"
 }

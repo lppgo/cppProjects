@@ -1,10 +1,10 @@
 /*
  * @Author: lucas李平平
  * @Date: 2021-09-09 17:21:40
- * @LastEditTime: 2021-09-10 17:12:45
- * @LastEditors:
+ * @LastEditTime: 2021-09-28 13:32:06
+ * @LastEditors: Please set LastEditors
  * @Description: desc
- * @FilePath: /go/callback/runme.go
+ * @FilePath: \005_swig_go_all\callback\runme.go
  */
 package main
 
@@ -13,6 +13,27 @@ import (
 
 	. "swig_go/callback/swig"
 )
+
+// type Caller interface {
+// 	Swigcptr() uintptr
+// 	SwigIsCaller()
+// 	DelCallback()
+// 	SetCallback(arg2 Callback)
+// 	Call()
+// }
+
+// type Callback interface {
+// 	Swigcptr() uintptr
+// 	SwigIsCallback()
+// 	DirectorInterface() interface{}
+// 	Run()
+// }
+
+// type GoCallback interface {
+// 	Callback
+// 	deleteCallback()
+// 	IsGoCallback()
+// }
 
 func main() {
 	fmt.Println("Adding and calling a normal C++ callback")
