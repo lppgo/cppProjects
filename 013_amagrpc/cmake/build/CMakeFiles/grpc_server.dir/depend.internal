@@ -197,6 +197,6 @@ CMakeFiles/grpc_server.dir/grpc_server.cpp.o
  /home/lucas/.local/include/grpcpp/support/config.h
  /home/lucas/.local/include/grpcpp/support/status.h
  /home/lucas/.local/include/grpcpp/support/string_ref.h
- /mnt/e/cppProjects001/013_amagrpc/AMAServer.grpc.pb.h
- /mnt/e/cppProjects001/013_amagrpc/AMAServer.pb.h
  /mnt/e/cppProjects001/013_amagrpc/grpc_server.cpp
+ AMAServer.grpc.pb.h
+ AMAServer.pb.h

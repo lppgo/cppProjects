@@ -2590,9 +2590,25 @@ grpcpp/impl/codegen/status.h
 grpcpp/impl/codegen/string_ref.h
 -
 
+/mnt/e/cppProjects001/013_amagrpc/grpc_client.cpp
+iostream
+-
+memory
+-
+string
+-
+grpcpp/ext/proto_server_reflection_plugin.h
+-
+grpcpp/grpcpp.h
+-
+grpcpp/health_check_service_interface.h
+-
+AMAServer.grpc.pb.h
 /mnt/e/cppProjects001/013_amagrpc/AMAServer.grpc.pb.h
+
+AMAServer.grpc.pb.h
 AMAServer.pb.h
-/mnt/e/cppProjects001/013_amagrpc/AMAServer.pb.h
+AMAServer.pb.h
 functional
 -
 grpcpp/impl/codegen/async_generic_service.h
@@ -2630,7 +2646,7 @@ grpcpp/impl/codegen/stub_options.h
 grpcpp/impl/codegen/sync_stream.h
 -
 
-/mnt/e/cppProjects001/013_amagrpc/AMAServer.pb.h
+AMAServer.pb.h
 limits
 -
 string
@@ -2665,20 +2681,4 @@ google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
 -
-
-/mnt/e/cppProjects001/013_amagrpc/grpc_client.cpp
-iostream
--
-memory
--
-string
--
-grpcpp/ext/proto_server_reflection_plugin.h
--
-grpcpp/grpcpp.h
--
-grpcpp/health_check_service_interface.h
--
-AMAServer.grpc.pb.h
-/mnt/e/cppProjects001/013_amagrpc/AMAServer.grpc.pb.h
 

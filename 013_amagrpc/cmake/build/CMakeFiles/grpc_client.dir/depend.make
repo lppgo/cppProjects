@@ -196,7 +196,7 @@ CMakeFiles/grpc_client.dir/grpc_client.cpp.o: /home/lucas/.local/include/grpcpp/
 CMakeFiles/grpc_client.dir/grpc_client.cpp.o: /home/lucas/.local/include/grpcpp/support/config.h
 CMakeFiles/grpc_client.dir/grpc_client.cpp.o: /home/lucas/.local/include/grpcpp/support/status.h
 CMakeFiles/grpc_client.dir/grpc_client.cpp.o: /home/lucas/.local/include/grpcpp/support/string_ref.h
-CMakeFiles/grpc_client.dir/grpc_client.cpp.o: ../../AMAServer.grpc.pb.h
-CMakeFiles/grpc_client.dir/grpc_client.cpp.o: ../../AMAServer.pb.h
 CMakeFiles/grpc_client.dir/grpc_client.cpp.o: ../../grpc_client.cpp
+CMakeFiles/grpc_client.dir/grpc_client.cpp.o: AMAServer.grpc.pb.h
+CMakeFiles/grpc_client.dir/grpc_client.cpp.o: AMAServer.pb.h
 

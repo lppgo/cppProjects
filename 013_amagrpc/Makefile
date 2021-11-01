@@ -18,12 +18,20 @@ vpath %.proto $(PROTOS_PATH)
 
 all:  grpc_server grpc_client
 
+# proto:
+# 	protoc \
+# 	-I=./protos \
+# 	--cpp_out=. \
+# 	--grpc_out=. \
+# 	--plugin=protoc-gen-grpc=`which grpc_cpp_plugin` \
+# 	AMAServer.proto
+
+
 proto:
 	protoc \
 	-I=./protos \
 	--cpp_out=. \
 	--grpc_out=. \
-	--grpc-gateway_out=. \
 	--plugin=protoc-gen-grpc=`which grpc_cpp_plugin` \
 	AMAServer.proto
 
@@ -42,7 +50,7 @@ grpc_client: AMAServer.pb.o AMAServer.grpc.pb.o grpc_client.o
 	$(PROTOC) -I $(PROTOS_PATH) --cpp_out=. $<
 
 clean:
-	rm -f *.o *.pb.cc *.pb.h  grpc_server grpc_client
+	rm -f *.o *.pb.cc *.pb.h  ./out/*.o ./out/*.pb.cc ./out/*.pb.h grpc_server grpc_client
 
 
 # The following is to test your system and ensure a smoother experience.
