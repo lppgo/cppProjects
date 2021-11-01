@@ -1,0 +1,5 @@
+/mnt/e/cppProjects001/013_amagrpc/cmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects001/013_amagrpc/cmake/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects001/013_amagrpc/cmake/build/CMakeFiles/grpc_server.dir
+/mnt/e/cppProjects001/013_amagrpc/cmake/build/CMakeFiles/grpc_client.dir
+/mnt/e/cppProjects001/013_amagrpc/cmake/build/CMakeFiles/hw_grpc_proto.dir

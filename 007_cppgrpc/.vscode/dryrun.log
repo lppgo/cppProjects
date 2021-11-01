@@ -1,12 +1,6 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/mnt/e/cppProjects001/007_cppgrpc'
-protoc -I ./protos --cpp_out=. ./protos/helloworld.proto
-g++ -std=c++11 `pkg-config --cflags protobuf grpc`  -c -o helloworld.pb.o helloworld.pb.cc
-protoc -I ./protos --grpc_out=. --plugin=protoc-gen-grpc=/home/lucas/.local/bin/grpc_cpp_plugin ./protos/helloworld.proto
-g++ -std=c++11 `pkg-config --cflags protobuf grpc`  -c -o helloworld.grpc.pb.o helloworld.grpc.pb.cc
-g++ -std=c++11 `pkg-config --cflags protobuf grpc`  -c -o greeter_client.o greeter_client.cc
-g++ helloworld.pb.o helloworld.grpc.pb.o greeter_client.o -L/usr/local/lib `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl -o greeter_client
-g++ -std=c++11 `pkg-config --cflags protobuf grpc`  -c -o greeter_server.o greeter_server.cc
-g++ helloworld.pb.o helloworld.grpc.pb.o greeter_server.o -L/usr/local/lib `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl -o greeter_server
-make: Leaving directory '/mnt/e/cppProjects001/007_cppgrpc'
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/e/cppProjects/007_cppgrpc'
+ 
+make: Nothing to be done for 'all'.
+make: Leaving directory '/mnt/e/cppProjects/007_cppgrpc'
  

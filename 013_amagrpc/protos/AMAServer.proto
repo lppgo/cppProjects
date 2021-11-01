@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+package AMA;
+
+// import "google/protobuf/empty.proto";
+// import "protoc-gen-openapiv2/options/annotations.proto";
+
+
+service AMAServer {
+  rpc MDOrderBook(MDOrderBookRequest) returns (MDOrderBookResponse) {
+    // option (google.api.http) = {
+    //   get : "/ama/mdorderbook" 
+    //   body:"*"
+    // };
+  }
+}
+
+message MDOrderBookRequest {
+    string req_time=1;
+}
+message MDOrderBookResponse{
+    repeated MDOrderBook order_book_vector = 1;
+}
+
+message MDOrderBook {
+  int32 channel_no = 1;
+  int32 market_type = 2;
+  string security_code = 3;
+  int64 last_tick_time = 4;
+  int64 last_snapshot_time = 5;
+  int64 last_tick_seq = 6;
+  repeated MDOrderBookItem bid_order_book = 7;
+  repeated MDOrderBookItem offer_order_book = 8;
+}
+
+message MDOrderBookItem { 
+    int64 price = 1;
+    int64 volume = 2;
+    // int64 order_queue_size=3;
+    repeated int64 order_queue=4;
+}
+
+/*
+
+struct MDOrderBook {
+  int32_t channel_no;  // 频道号
+  int32_t market_type; // 市场类型
+  char security_code
+  [ConstField::kSecurityCodeLen];                // 证券代码
+  int64_t last_tick_time;                        // 最新逐笔生成时间
+  int64_t last_snapshot_time;                    // 最新快照生成时间
+  int64_t last_tick_seq;                         // 最新逐笔序列号
+  std::vector<MDOrderBookItem> bid_order_book;   // 买委托薄
+  std::vector<MDOrderBookItem> offer_order_book; // 卖委托薄
+};
+
+
+struct MDOrderBookItem
+{
+    int64_t price;                                                          //
+价格 int64_t volume;                                                         //
+总数量 int64_t order_queue_size; // 委托队列大小 int64_t order_queue[50]; //
+委托队列数量, 最多揭示50笔
+};
+
+*/

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9a969d0454b8e659d4b1c40b1d7530f3 AMAServer.pb.cc

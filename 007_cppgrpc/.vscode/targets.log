@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Oct 10 20:58:21 2021
+# Make data base, printed on Mon Nov  1 15:49:45 2021
 
 # Variables
 
@@ -33,7 +33,7 @@ CPPFLAGS = `pkg-config --cflags protobuf grpc`
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /mnt/e/cppProjects001/007_cppgrpc
+CURDIR := /mnt/e/cppProjects/007_cppgrpc
 # makefile
 SHELL = /bin/sh
 # environment
@@ -65,7 +65,7 @@ PROTOC = protoc
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/lucas/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/bin:/home/lucas/.local/bin:/home/lucas/bin:/home/lucas/.local/bin:/home/lucas/go:/home/lucas/go/bin:/usr/local/go/bin:/home/lucas/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/SoftBox/Python39/Scripts/:/mnt/d/SoftBox/Python39/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/SoftBox/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/d/SoftBox/Graphviz2.38/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/jre/bin:/mnt/e/envgo/bin:/mnt/d/SoftBox/Nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/SoftBox/hugo:/mnt/d/SoftBox/Rust/.cargo/bin:/mnt/d/SoftBox/gnuplot/bin:/mnt/d/SoftBox/LLVM/bin:/mnt/d/SoftBox/swigwin-4.0.2:/mnt/d/SoftBox/Go/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/mingw-w64/mingw64/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/SoftBox/VScode/bin:/mnt/d/SoftBox/JetBrains/GoLand 2021.1/bin:/mnt/c/Users/Administrator/AppData/Roaming/npm:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/d/SoftBox/JetBrains/CLion 2021.2/bin:/mnt/c/Users/Administrator/go/bin:/mnt/c/Program\ Files/Docker/Docker/resources/bin:/usr/local/lib/node-v16.4.2-linux-x64/bin
+PATH = /home/lucas/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/home/lucas/.local/bin:/home/lucas/bin:/home/lucas/.local/bin:/home/lucas/go:/home/lucas/go/bin:/usr/local/go/bin:/home/lucas/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/SoftBox/Python39/Scripts/:/mnt/d/SoftBox/Python39/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/SoftBox/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/d/SoftBox/Graphviz2.38/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/jre/bin:/mnt/e/envgo/bin:/mnt/d/SoftBox/Nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/SoftBox/hugo:/mnt/d/SoftBox/Rust/.cargo/bin:/mnt/d/SoftBox/gnuplot/bin:/mnt/d/SoftBox/LLVM/bin:/mnt/d/SoftBox/swigwin-4.0.2:/mnt/d/SoftBox/Go/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/mingw-w64/mingw64/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/SoftBox/VScode/bin:/mnt/d/SoftBox/JetBrains/GoLand 2021.1/bin:/mnt/c/Users/Administrator/AppData/Roaming/npm:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/d/SoftBox/JetBrains/CLion 2021.2/bin:/mnt/c/Users/Administrator/go/bin:/mnt/c/Program\ Files/Docker/Docker/resources/bin:/usr/local/lib/node-v16.4.2-linux-x64/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -77,9 +77,9 @@ GOPATH = /home/lucas/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-cd979be8-21fe-4cbf-961d-53b116258f07.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3eef1f84-ee26-4570-bb62-2011fab74649.sock
 # makefile (from 'Makefile', line 7)
-LDFLAGS = -L/usr/local/lib `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl
+LDFLAGS = -L/usr/lib -L/usr/local/lib `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl
 # environment
 RUSTUP_DIST_SERVER = https://mirrors.ustc.edu.cn/rust-static
 # default
@@ -93,17 +93,17 @@ GOBIN = /home/lucas/go/bin
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /mnt/e/cppProjects001/007_cppgrpc
+PWD = /mnt/e/cppProjects/007_cppgrpc
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/26188_interop
+WSL_INTEROP = /run/WSL/12883_interop
 # environment
 HISTTIMEFORMAT = %F %T 
 # makefile (from 'Makefile', line 43)
 PROTOC_CHECK_CMD = $(PROTOC) --version | grep -q libprotoc.3
 # environment
-WT_SESSION = 36956d2f-03ea-4cbc-9495-d485a8dab019
+WT_SESSION = 7f3a4555-0935-40a1-9290-5669c70dfc76
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
 # environment
@@ -147,9 +147,11 @@ LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Administrator/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.2
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Administrator/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.4
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /mnt/d/SoftBox/VScode
 # default
 .VARIABLES := 
 # automatic
@@ -193,7 +195,7 @@ MY_INSTALL_DIR = /home/lucas/.local
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/lucas/.vscode-server/bin/ee8c7def80afc00dd6e593ef12f37756d8f504ea/remote/node_modules
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/lucas/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/remote/node_modules
 # default
 .RECIPEPREFIX := 
 # environment
@@ -209,7 +211,7 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 # environment
 RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 # variable set hash-table stats:
-# Load=99/1024=10%, Rehash=0, Collisions=16/170=9%
+# Load=100/1024=10%, Rehash=0, Collisions=14/166=8%
 
 # Pattern-specific Variable Values
 
@@ -217,10 +219,10 @@ RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 
 # Directories
 
-# . (device 45, inode 1125899907674429): 22 files, no impossibilities.
-# ./protos (device 45, inode 1125899907674465): No files, no impossibilities so far.
+# . (device 40, inode 562949953567974): 18 files, no impossibilities.
+# ./protos (device 40, inode 562949953567994): No files, no impossibilities so far.
 
-# 22 files, no impossibilities in 2 directories.
+# 18 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -238,12 +240,11 @@ RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 
 all: system-check greeter_client greeter_server
 #  Command line target.
+ 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  Successfully updated.
 
 system-check:
 #  Implicit rule search has been done.
@@ -257,50 +258,24 @@ system-check:
 #  File has not been updated.
 
 # Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-10-09 22:27:09.1709907
+#  Last modified 2021-11-01 14:52:48.7778807
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 greeter_client.o:
 #  Implicit rule search has been done.
-#  Last modified 2021-10-09 22:27:22.6310505
+#  Last modified 2021-11-01 14:54:18.6204888
 #  File has been updated.
 #  Successfully updated.
 
 greeter_client: helloworld.pb.o helloworld.grpc.pb.o greeter_client.o
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
+#  Last modified 2021-11-01 14:54:35.1646496
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := greeter_client
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := helloworld.pb.o helloworld.grpc.pb.o greeter_client.o
-# automatic
-# | := 
- 
-# automatic
-# < := helloworld.pb.o
-# automatic
-# ^ := helloworld.pb.o helloworld.grpc.pb.o greeter_client.o
-# automatic
-# ? := helloworld.pb.o helloworld.grpc.pb.o greeter_client.o
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 22):
 	$(CXX) $^ $(LDFLAGS) -o $@
 
@@ -315,7 +290,7 @@ clean:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 36):
-	rm -f *.o *.pb.cc *.pb.h greeter_client greeter_server greeter_async_client greeter_async_client2 greeter_async_server greeter_callback_client greeter_callback_server 
+	rm -f *.o *.pb.cc *.pb.h greeter_client greeter_server 
 
 # Not a target:
 %.pb.cc:
@@ -326,21 +301,23 @@ clean:
 
 # Not a target:
 greeter_server.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2021-11-01 14:54:36.5486507
+#  File has been updated.
+#  Successfully updated.
 
 greeter_server: helloworld.pb.o helloworld.grpc.pb.o greeter_server.o
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2021-11-01 14:55:01.0837322
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 25):
 	$(CXX) $^ $(LDFLAGS) -o $@
 
 # Not a target:
 helloworld.pb.o:
 #  Implicit rule search has been done.
-#  Last modified 2021-10-09 22:27:21.1349021
+#  Last modified 2021-11-01 14:54:15.4805054
 #  File has been updated.
 #  Successfully updated.
 
@@ -354,12 +331,12 @@ helloworld.pb.o:
 # Not a target:
 helloworld.grpc.pb.o:
 #  Implicit rule search has been done.
-#  Last modified 2021-10-09 22:27:23.4645414
+#  Last modified 2021-11-01 14:54:17.3345279
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=15/1024=1%, Rehash=0, Collisions=0/42=0%
+# Load=15/1024=1%, Rehash=0, Collisions=0/41=0%
 # VPATH Search Paths
 
 vpath %.proto ./protos
@@ -368,12 +345,12 @@ vpath %.proto ./protos
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 36 / storage = 442 B / avg = 12 B
-# current buf: size = 8162 B / used = 442 B / count = 36 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 374 B / avg = 12 B
+# current buf: size = 8162 B / used = 374 B / count = 30 / avg = 12 B
 
-# strcache performance: lookups = 64 / hit rate = 43%
+# strcache performance: lookups = 59 / hit rate = 49%
 # hash-table stats:
-# Load=36/8192=0%, Rehash=0, Collisions=1/64=2%
-# Finished Make data base on Sun Oct 10 20:58:21 2021
+# Load=30/8192=0%, Rehash=0, Collisions=1/59=2%
+# Finished Make data base on Mon Nov  1 15:49:45 2021
 
  
