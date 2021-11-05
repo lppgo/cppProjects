@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'helloworld.pb.o', needed by 'greeter_client'.  Stop.
+ 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Nov  1 15:49:45 2021
+# Make data base, printed on Fri Nov  5 13:26:36 2021
 
 # Variables
 
@@ -77,7 +79,7 @@ GOPATH = /home/lucas/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3eef1f84-ee26-4570-bb62-2011fab74649.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-84fcde03-a7e7-45fe-8804-2adaf82472db.sock
 # makefile (from 'Makefile', line 7)
 LDFLAGS = -L/usr/lib -L/usr/local/lib `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl
 # environment
@@ -97,13 +99,13 @@ PWD = /mnt/e/cppProjects/007_cppgrpc
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/12883_interop
+WSL_INTEROP = /run/WSL/24416_interop
 # environment
 HISTTIMEFORMAT = %F %T 
 # makefile (from 'Makefile', line 43)
 PROTOC_CHECK_CMD = $(PROTOC) --version | grep -q libprotoc.3
 # environment
-WT_SESSION = 7f3a4555-0935-40a1-9290-5669c70dfc76
+WT_SESSION = f0097426-aec3-4f72-80cb-f14e4d6f9faa
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
 # environment
@@ -176,6 +178,8 @@ PLUGIN_CHECK_CMD = which $(GRPC_CPP_PLUGIN)
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
+# environment
+https_proxy = http://172.21.208.1:7078
 # makefile (from 'Makefile', line 3)
 CXX = g++
 # environment
@@ -199,6 +203,8 @@ VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/lucas/.vscode-server/bin/6cba118ac
 # default
 .RECIPEPREFIX := 
 # environment
+http_proxy = http://172.21.208.1:7078
+# environment
 LANG = C
 # environment
 TERM = xterm-256color
@@ -211,7 +217,7 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 # environment
 RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=14/166=8%
+# Load=102/1024=10%, Rehash=0, Collisions=14/168=8%
 
 # Pattern-specific Variable Values
 
@@ -219,10 +225,10 @@ RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 
 # Directories
 
-# . (device 40, inode 562949953567974): 18 files, no impossibilities.
+# . (device 40, inode 562949953567974): 11 files, no impossibilities.
 # ./protos (device 40, inode 562949953567994): No files, no impossibilities so far.
 
-# 18 files, no impossibilities in 2 directories.
+# 11 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -240,11 +246,9 @@ RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 
 all: system-check greeter_client greeter_server
 #  Command line target.
- 
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
-#  Successfully updated.
+#  File has not been updated.
 
 system-check:
 #  Implicit rule search has been done.
@@ -260,24 +264,23 @@ system-check:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-11-01 14:52:48.7778807
+#  Last modified 2021-11-01 17:00:52.4471824
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 greeter_client.o:
-#  Implicit rule search has been done.
-#  Last modified 2021-11-01 14:54:18.6204888
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 greeter_client: helloworld.pb.o helloworld.grpc.pb.o greeter_client.o
 #  Implicit rule search has not been done.
-#  Last modified 2021-11-01 14:54:35.1646496
-#  File has been updated.
-#  Successfully updated.
+#  File does not exist.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 22):
 	$(CXX) $^ $(LDFLAGS) -o $@
+ 
 
 # Not a target:
 .DEFAULT:
@@ -301,25 +304,22 @@ clean:
 
 # Not a target:
 greeter_server.o:
-#  Implicit rule search has been done.
-#  Last modified 2021-11-01 14:54:36.5486507
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 greeter_server: helloworld.pb.o helloworld.grpc.pb.o greeter_server.o
 #  Implicit rule search has not been done.
-#  Last modified 2021-11-01 14:55:01.0837322
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 25):
 	$(CXX) $^ $(LDFLAGS) -o $@
 
 # Not a target:
 helloworld.pb.o:
 #  Implicit rule search has been done.
-#  Last modified 2021-11-01 14:54:15.4805054
-#  File has been updated.
-#  Successfully updated.
+#  File does not exist.
+#  File has not been updated.
 
 # Not a target:
 %.grpc.pb.cc:
@@ -330,10 +330,9 @@ helloworld.pb.o:
 
 # Not a target:
 helloworld.grpc.pb.o:
-#  Implicit rule search has been done.
-#  Last modified 2021-11-01 14:54:17.3345279
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
 # Load=15/1024=1%, Rehash=0, Collisions=0/41=0%
@@ -345,12 +344,12 @@ vpath %.proto ./protos
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 374 B / avg = 12 B
-# current buf: size = 8162 B / used = 374 B / count = 30 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 332 B / avg = 11 B
+# current buf: size = 8162 B / used = 332 B / count = 29 / avg = 11 B
 
-# strcache performance: lookups = 59 / hit rate = 49%
+# strcache performance: lookups = 52 / hit rate = 44%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/59=2%
-# Finished Make data base on Mon Nov  1 15:49:45 2021
+# Load=29/8192=0%, Rehash=0, Collisions=1/52=2%
+# Finished Make data base on Fri Nov  5 13:26:36 2021
 
  

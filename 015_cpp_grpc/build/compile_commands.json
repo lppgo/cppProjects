@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/mnt/e/cppProjects/015_cpp_grpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/015_cpp_grpc/build -I/mnt/e/cppProjects/015_cpp_grpc/, -I/mnt/e/cppProjects/015_cpp_grpc/include -isystem /home/lucas/.local/include  -Wall -O3 -g -std=c++11 -I /mnt/e/cppProjects/015_cpp_grpc/include -g   -std=gnu++11 -o CMakeFiles/grpc_server.dir/grpc_server.cc.o -c /mnt/e/cppProjects/015_cpp_grpc/grpc_server.cc",
+  "file": "/mnt/e/cppProjects/015_cpp_grpc/grpc_server.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/015_cpp_grpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/015_cpp_grpc/build -I/mnt/e/cppProjects/015_cpp_grpc/, -I/mnt/e/cppProjects/015_cpp_grpc/include -isystem /home/lucas/.local/include  -Wall -O3 -g -std=c++11 -I /mnt/e/cppProjects/015_cpp_grpc/include -g   -std=gnu++11 -o CMakeFiles/grpc_client.dir/grpc_client.cc.o -c /mnt/e/cppProjects/015_cpp_grpc/grpc_client.cc",
+  "file": "/mnt/e/cppProjects/015_cpp_grpc/grpc_client.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/015_cpp_grpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/015_cpp_grpc/build -I/mnt/e/cppProjects/015_cpp_grpc/, -I/mnt/e/cppProjects/015_cpp_grpc/include -isystem /home/lucas/.local/include  -Wall -O3 -g -std=c++11 -I /mnt/e/cppProjects/015_cpp_grpc/include -g   -std=gnu++11 -o CMakeFiles/hw_grpc_proto.dir/information.grpc.pb.cc.o -c /mnt/e/cppProjects/015_cpp_grpc/build/information.grpc.pb.cc",
+  "file": "/mnt/e/cppProjects/015_cpp_grpc/build/information.grpc.pb.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/015_cpp_grpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/015_cpp_grpc/build -I/mnt/e/cppProjects/015_cpp_grpc/, -I/mnt/e/cppProjects/015_cpp_grpc/include -isystem /home/lucas/.local/include  -Wall -O3 -g -std=c++11 -I /mnt/e/cppProjects/015_cpp_grpc/include -g   -std=gnu++11 -o CMakeFiles/hw_grpc_proto.dir/information.pb.cc.o -c /mnt/e/cppProjects/015_cpp_grpc/build/information.pb.cc",
+  "file": "/mnt/e/cppProjects/015_cpp_grpc/build/information.pb.cc"
+}
+]

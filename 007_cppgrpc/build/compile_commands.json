@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/mnt/e/cppProjects/007_cppgrpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/007_cppgrpc/build -isystem /home/lucas/.local/include  -g   -std=gnu++11 -o CMakeFiles/greeter_server.dir/greeter_server.cc.o -c /mnt/e/cppProjects/007_cppgrpc/greeter_server.cc",
+  "file": "/mnt/e/cppProjects/007_cppgrpc/greeter_server.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/007_cppgrpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/007_cppgrpc/build -isystem /home/lucas/.local/include  -g   -std=gnu++11 -o CMakeFiles/greeter_client.dir/greeter_client.cc.o -c /mnt/e/cppProjects/007_cppgrpc/greeter_client.cc",
+  "file": "/mnt/e/cppProjects/007_cppgrpc/greeter_client.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/007_cppgrpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/007_cppgrpc/build -isystem /home/lucas/.local/include  -g   -std=gnu++11 -o CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o -c /mnt/e/cppProjects/007_cppgrpc/build/helloworld.grpc.pb.cc",
+  "file": "/mnt/e/cppProjects/007_cppgrpc/build/helloworld.grpc.pb.cc"
+},
+{
+  "directory": "/mnt/e/cppProjects/007_cppgrpc/build",
+  "command": "/bin/x86_64-linux-gnu-g++-4.8  -DCARES_STATICLIB -D__CLANG_SUPPORT_DYN_ANNOTATION__ -I/mnt/e/cppProjects/007_cppgrpc/build -isystem /home/lucas/.local/include  -g   -std=gnu++11 -o CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o -c /mnt/e/cppProjects/007_cppgrpc/build/helloworld.pb.cc",
+  "file": "/mnt/e/cppProjects/007_cppgrpc/build/helloworld.pb.cc"
+}
+]

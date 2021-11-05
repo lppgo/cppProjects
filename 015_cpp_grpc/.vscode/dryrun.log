@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/e/cppProjects/015_cpp_grpc'
+make: Leaving directory '/mnt/e/cppProjects/015_cpp_grpc'
+ 
+make: *** No rule to make target 'information.pb.cc', needed by 'all'.
+make: *** No rule to make target 'information.grpc.pb.cc', needed by 'all'.
+make: *** No rule to make target 'server.o', needed by 'server'.
+make: *** No rule to make target 'client.o', needed by 'client'.
+ 

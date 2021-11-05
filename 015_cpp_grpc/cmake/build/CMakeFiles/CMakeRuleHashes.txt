@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+0cbfe7c0807bf4d99bdc1881d6ce74c5 information.pb.cc

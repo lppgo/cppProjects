@@ -1,0 +1,5 @@
+/mnt/e/cppProjects/007_cppgrpc/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects/007_cppgrpc/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects/007_cppgrpc/build/CMakeFiles/greeter_server.dir
+/mnt/e/cppProjects/007_cppgrpc/build/CMakeFiles/greeter_client.dir
+/mnt/e/cppProjects/007_cppgrpc/build/CMakeFiles/hw_grpc_proto.dir
