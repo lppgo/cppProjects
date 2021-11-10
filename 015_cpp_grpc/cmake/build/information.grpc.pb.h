@@ -44,6 +44,7 @@ class Manager final {
     std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::google::protobuf::Empty>> PrepareAsyncAddRecord(::grpc::ClientContext* context, const ::info::Person& request, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::google::protobuf::Empty>>(PrepareAsyncAddRecordRaw(context, request, cq));
     }
+    // stream grpc
     std::unique_ptr< ::grpc::ClientWriterInterface< ::info::ReqName>> DeleteRecords(::grpc::ClientContext* context, ::google::protobuf::Empty* response) {
       return std::unique_ptr< ::grpc::ClientWriterInterface< ::info::ReqName>>(DeleteRecordsRaw(context, response));
     }
@@ -53,7 +54,6 @@ class Manager final {
     std::unique_ptr< ::grpc::ClientAsyncWriterInterface< ::info::ReqName>> PrepareAsyncDeleteRecords(::grpc::ClientContext* context, ::google::protobuf::Empty* response, ::grpc::CompletionQueue* cq) {
       return std::unique_ptr< ::grpc::ClientAsyncWriterInterface< ::info::ReqName>>(PrepareAsyncDeleteRecordsRaw(context, response, cq));
     }
-    // stream grpc
     std::unique_ptr< ::grpc::ClientReaderInterface< ::info::Person>> GetRecordsByAge(::grpc::ClientContext* context, const ::info::AgeRange& request) {
       return std::unique_ptr< ::grpc::ClientReaderInterface< ::info::Person>>(GetRecordsByAgeRaw(context, request));
     }
@@ -88,12 +88,12 @@ class Manager final {
       #else
       virtual void AddRecord(::grpc::ClientContext* context, const ::grpc::ByteBuffer* request, ::google::protobuf::Empty* response, ::grpc::experimental::ClientUnaryReactor* reactor) = 0;
       #endif
+      // stream grpc
       #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
       virtual void DeleteRecords(::grpc::ClientContext* context, ::google::protobuf::Empty* response, ::grpc::ClientWriteReactor< ::info::ReqName>* reactor) = 0;
       #else
       virtual void DeleteRecords(::grpc::ClientContext* context, ::google::protobuf::Empty* response, ::grpc::experimental::ClientWriteReactor< ::info::ReqName>* reactor) = 0;
       #endif
-      // stream grpc
       #ifdef GRPC_CALLBACK_API_NONEXPERIMENTAL
       virtual void GetRecordsByAge(::grpc::ClientContext* context, ::info::AgeRange* request, ::grpc::ClientReadReactor< ::info::Person>* reactor) = 0;
       #else
@@ -227,8 +227,8 @@ class Manager final {
     virtual ~Service();
     // unary rpc
     virtual ::grpc::Status AddRecord(::grpc::ServerContext* context, const ::info::Person* request, ::google::protobuf::Empty* response);
-    virtual ::grpc::Status DeleteRecords(::grpc::ServerContext* context, ::grpc::ServerReader< ::info::ReqName>* reader, ::google::protobuf::Empty* response);
     // stream grpc
+    virtual ::grpc::Status DeleteRecords(::grpc::ServerContext* context, ::grpc::ServerReader< ::info::ReqName>* reader, ::google::protobuf::Empty* response);
     virtual ::grpc::Status GetRecordsByAge(::grpc::ServerContext* context, const ::info::AgeRange* request, ::grpc::ServerWriter< ::info::Person>* writer);
     virtual ::grpc::Status GetRecordsByNames(::grpc::ServerContext* context, ::grpc::ServerReaderWriter< ::info::Person, ::info::ReqName>* stream);
   };

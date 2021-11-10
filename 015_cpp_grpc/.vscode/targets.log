@@ -8,7 +8,7 @@ make: *** No rule to make target 'information.pb.cc', needed by 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Nov  5 13:57:15 2021
+# Make data base, printed on Wed Nov 10 15:10:49 2021
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'information.pb.cc', needed by 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION:BASH_ENV/u:WT_PROFILE_ID
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up:BASH_ENV/u
 # default
 .SHELLFLAGS := -c
 # environment
@@ -39,7 +39,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /mnt/d/SoftBox/VScode/bin/code
+_ = /home/lucas/.vscode-server/bin/b3318bc0524af3d74034b8bb8a64df0ccf35549a/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
@@ -59,7 +59,7 @@ PROTOC = protoc
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/lucas/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/home/lucas/.local/bin:/home/lucas/bin:/home/lucas/.local/bin:/home/lucas/go:/home/lucas/go/bin:/usr/local/go/bin:/home/lucas/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/SoftBox/Python39/Scripts/:/mnt/d/SoftBox/Python39/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/SoftBox/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/d/SoftBox/Graphviz2.38/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/jre/bin:/mnt/e/envgo/bin:/mnt/d/SoftBox/Nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/SoftBox/hugo:/mnt/d/SoftBox/Rust/.cargo/bin:/mnt/d/SoftBox/gnuplot/bin:/mnt/d/SoftBox/LLVM/bin:/mnt/d/SoftBox/swigwin-4.0.2:/mnt/d/SoftBox/Go/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/mingw-w64/mingw64/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/SoftBox/VScode/bin:/mnt/d/SoftBox/JetBrains/GoLand 2021.1/bin:/mnt/c/Users/Administrator/AppData/Roaming/npm:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/d/SoftBox/JetBrains/CLion 2021.2/bin:/mnt/c/Users/Administrator/go/bin:/mnt/c/Program\ Files/Docker/Docker/resources/bin:/usr/local/lib/node-v16.4.2-linux-x64/bin
+PATH = /home/lucas/.vscode-server/bin/b3318bc0524af3d74034b8bb8a64df0ccf35549a/bin:/home/lucas/.local/bin:/home/lucas/bin:/home/lucas/.local/bin:/home/lucas/go:/home/lucas/go/bin:/usr/local/go/bin:/home/lucas/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/SoftBox/Python39/Scripts/:/mnt/d/SoftBox/Python39/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/SoftBox/Git/cmd:/mnt/c/Users/Administrator/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/d/SoftBox/Graphviz2.38/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/bin:/mnt/d/SoftBox/Java/jdk-15.0.2/jre/bin:/mnt/e/envgo/bin:/mnt/d/SoftBox/Nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/SoftBox/hugo:/mnt/d/SoftBox/Rust/.cargo/bin:/mnt/d/SoftBox/gnuplot/bin:/mnt/d/SoftBox/LLVM/bin:/mnt/d/SoftBox/swigwin-4.0.2:/mnt/d/SoftBox/Go/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/cmake/bin:/mnt/d/SoftBox/mingw-w64/mingw64/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/SoftBox/VScode/bin:/mnt/d/SoftBox/JetBrains/GoLand 2021.1/bin:/mnt/c/Users/Administrator/AppData/Roaming/npm:/mnt/c/Users/Administrator/AppData/Local/GitHubDesktop/bin:/mnt/d/SoftBox/JetBrains/CLion 2021.2/bin:/mnt/c/Users/Administrator/go/bin:/mnt/c/Program\ Files/Docker/Docker/resources/bin:/usr/local/lib/node-v16.4.2-linux-x64/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -69,9 +69,11 @@ GOPATH = /home/lucas/go
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ff75be79-3122-4965-b937-a2d1def705fc.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-9eafa4c5-599e-4c38-a355-1147f2e870a9.sock
 # makefile (from 'Makefile', line 9)
 LDFLAGS = `pkg-config --libs protobuf grpc++` -pthread -Wl,--no-as-needed -lgrpc++_reflection -Wl,--as-needed -ldl
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/ADMINI~1/AppData/Local/Temp/vscode-remote-wsl/b3318bc0524af3d74034b8bb8a64df0ccf35549a/vscode-server-stable-linux-x64.tar.gz
 # environment
 RUSTUP_DIST_SERVER = https://mirrors.ustc.edu.cn/rust-static
 # default
@@ -89,13 +91,11 @@ PWD = /mnt/e/cppProjects/015_cpp_grpc
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/24416_interop
+WSL_INTEROP = /run/WSL/20905_interop
 # makefile (from 'Makefile', line 1)
 PKG_CONFIG_PATH := :~/.local/lib/pkgconfig/
 # environment
 HISTTIMEFORMAT = %F %T 
-# environment
-WT_SESSION = f0097426-aec3-4f72-80cb-f14e4d6f9faa
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
 # environment
@@ -121,7 +121,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -131,7 +131,7 @@ USER = lucas
 # environment
 GOROOT = /usr/local/go
 # environment
-NAME = Code
+NAME = lucas
 # environment
 LESS = -R
 # automatic
@@ -156,14 +156,10 @@ MFLAGS = -pqrR
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
-# environment
-WT_PROFILE_ID = {07b52e3e-de2c-5db4-bd2d-ba144ed6c273}
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# environment
-https_proxy = http://172.21.208.1:7078
 # makefile (from 'Makefile', line 6)
 CXX = g++
 # environment
@@ -183,11 +179,9 @@ MY_INSTALL_DIR = /home/lucas/.local
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/lucas/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/remote/node_modules
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/lucas/.vscode-server/bin/b3318bc0524af3d74034b8bb8a64df0ccf35549a/remote/node_modules
 # default
 .RECIPEPREFIX := 
-# environment
-http_proxy = http://172.21.208.1:7078
 # environment
 LANG = C
 # environment
@@ -199,7 +193,7 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 # environment
 RUSTUP_UPDATE_ROOT = https://mirrors.ustc.edu.cn/rust-static/rustup
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=5/122=4%
+# Load=90/1024=9%, Rehash=0, Collisions=5/119=4%
 
 # Pattern-specific Variable Values
 
@@ -314,7 +308,8 @@ information.grpc.pb.cc:
 
 # strcache performance: lookups = 46 / hit rate = 34%
 # hash-table stats:
+ 
 # Load=30/8192=0%, Rehash=0, Collisions=1/46=2%
-# Finished Make data base on Fri Nov  5 13:57:15 2021
+# Finished Make data base on Wed Nov 10 15:10:49 2021
 
  

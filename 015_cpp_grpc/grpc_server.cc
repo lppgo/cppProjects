@@ -43,7 +43,7 @@ public:
     }
 
     grpc::Status GetRecordsByNames(grpc::ServerContext * context,
-                                   grpc::ServerReaderWriter<info::Person, info::ReqName> * stream) override {
+                                   grpc::ServerReaderWriter<info::Person, info::ReqName> * stream)  {
         info::ReqName request;
         while(stream->Read(&request)) {
             auto name = request.name();

@@ -10,7 +10,7 @@ class InfoClient {
 public:
     InfoClient(std::shared_ptr<grpc::Channel> channel)
             :stub_(info::Manager::NewStub(channel)) {};
-            
+
     void AddRecord(std::string name, int age, std::string email) {
         info::Person person;
         setPerson(person, name, age, email);
@@ -118,15 +118,18 @@ private:
 int main() {
     InfoClient client(grpc::CreateChannel("localhost:30003",
                                           grpc::InsecureChannelCredentials()));
-    client.AddRecord("xia", 10, "aaa");
-    client.AddRecord("li",  20, "bbb");
-    client.AddRecord("wang", 30, "ccc");
+    client.AddRecord("C", 10, "aaa");
+    client.AddRecord("C++", 20, "aaa");
+    client.AddRecord("Rust", 30, "aaa");
+    client.AddRecord("Go",  40, "bbb");
+    client.AddRecord("Java", 50, "ccc");
+    client.AddRecord("Python", 60, "ccc");
 
     std::vector<std::string> name_list;
     name_list.emplace_back("xia");
     client.DeleteRecords(name_list);
 
-    client.GetRecordsByAge(20, 30);
+    client.GetRecordsByAge(10, 50);
 
     name_list.clear();
     name_list.emplace_back("li");
