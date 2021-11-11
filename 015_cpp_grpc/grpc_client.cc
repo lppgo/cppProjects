@@ -60,7 +60,8 @@ public:
 
     void GetRecordsByNames(const std::vector<std::string> & name_list) {
         grpc::ClientContext context;
-        std::shared_ptr<grpc::ClientReaderWriter<info::ReqName, info::Person>> stream(stub_->GetRecordsByNames(&context)); //need to be shared_ptr since it is used by differente thread, shared_ptr is no thread-safe, but google's doc says steams's write is thread-safe with respect to read, vise versa
+        std::shared_ptr<grpc::ClientReaderWriter<info::ReqName, info::Person>> 
+        stream(stub_->GetRecordsByNames(&context)); //need to be shared_ptr since it is used by differente thread, shared_ptr is no thread-safe, but google's doc says steams's write is thread-safe with respect to read, vise versa
         std::thread worker([stream, &name_list]() {
                                 info::ReqName request;
                                 for (const auto & name : name_list) {
