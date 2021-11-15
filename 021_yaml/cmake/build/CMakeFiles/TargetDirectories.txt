@@ -1,0 +1,3 @@
+/mnt/e/cppProjects/021_yaml/cmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects/021_yaml/cmake/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects/021_yaml/cmake/build/CMakeFiles/yamltest.dir

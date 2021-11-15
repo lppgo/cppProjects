@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/yamltest.dir/yaml_test.cpp.o  -o yamltest  -Wl,-rpath,/usr/local/lib /usr/local/lib/libyaml-cpp.so 
