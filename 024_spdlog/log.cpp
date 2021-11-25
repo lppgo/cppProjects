@@ -21,7 +21,8 @@ int main(int argc, char* argv[]) {
         auto now = std::chrono::system_clock::now();
         //  通过不同精度获取相差的毫秒数
         uint64_t dis_millseconds =
-            std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()).count() - std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count() * 1000;
+            std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()).count() -
+            std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count() * 1000;
         time_t tt = std::chrono::system_clock::to_time_t(now);
         auto time_tm = localtime(&tt);
         char strTime[25] = {0};
@@ -35,11 +36,11 @@ int main(int argc, char* argv[]) {
 
         long tl = atol(strTime);
 
-        rotating_logger->info("strTime:{}", strTime);
+        rotating_logger->info("strTime :{}", strTime);
         rotating_logger->flush();
-        rotating_logger->info("tl:{}", tl);
+        rotating_logger->info("tl      :{}", tl);
         rotating_logger->flush();
-        rotating_logger->info("tl-t0:{}", tl - 1000000);
+        rotating_logger->info("tl-t0   :{}", tl - 1000000);
         rotating_logger->flush();
     }
     return 0;

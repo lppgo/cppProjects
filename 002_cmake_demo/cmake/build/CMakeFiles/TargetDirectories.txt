@@ -1,0 +1,4 @@
+/mnt/e/cppProjects/002_cmake_demo/cmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects/002_cmake_demo/cmake/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects/002_cmake_demo/cmake/build/CMakeFiles/main.dir
+/mnt/e/cppProjects/002_cmake_demo/cmake/build/CMakeFiles/calculate.dir
