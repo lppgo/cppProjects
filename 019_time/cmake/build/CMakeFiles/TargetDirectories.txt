@@ -1,0 +1,4 @@
+/mnt/e/cppProjects/019_time/cmake/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects/019_time/cmake/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects/019_time/cmake/build/CMakeFiles/main.dir
+/mnt/e/cppProjects/019_time/cmake/build/CMakeFiles/mt.dir

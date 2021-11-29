@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cppProjects/019_time/src/mytime.cpp
+stdio.h
+-
+string.h
+-
+sys/time.h
+-
+chrono
+-
+ctime
+-
+iomanip
+-
+iostream
+-
+
