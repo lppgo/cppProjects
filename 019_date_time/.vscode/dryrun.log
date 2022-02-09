@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/e/cppProjects002/test-1'
+gcc -c main.cpp
+gcc -c mytool1.cpp
+ 
+gcc -c mytool2.cpp
+gcc -o main main.o mytool1.o mytool2.o
+make: Leaving directory '/mnt/e/cppProjects002/test-1'
+ 
