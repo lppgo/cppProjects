@@ -1,0 +1,3 @@
+/mnt/e/cppProjects001/000_5_10-conan包管理器/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/cppProjects001/000_5_10-conan包管理器/build/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects001/000_5_10-conan包管理器/build/CMakeFiles/md5.dir
