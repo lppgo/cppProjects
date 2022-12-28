@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/cppProjects002/025_IPC共享内存/shmWrite/src/main.cpp
+iostream
+-
+unistd.h
+-
+stdlib.h
+-
+fcntl.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/shm.h
+-
+sys/ipc.h
+-
+

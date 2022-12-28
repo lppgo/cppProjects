@@ -1,0 +1,3 @@
+/mnt/e/cppProjects001/025_IPC共享内存/shmReader/build/build-debug/CMakeFiles/shmReader.dir
+/mnt/e/cppProjects001/025_IPC共享内存/shmReader/build/build-debug/CMakeFiles/edit_cache.dir
+/mnt/e/cppProjects001/025_IPC共享内存/shmReader/build/build-debug/CMakeFiles/rebuild_cache.dir
